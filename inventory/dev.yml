@@ -1,0 +1,12 @@
+[nfs]
+192.168.109.130 ansible_ssh_user='osboxes'
+
+[webservers]
+192.168.109.134  ansible_ssh_user='osboxes'
+192.168.109.132 ansible_ssh_user='osboxes'
+
+[db]
+192.168.109.136 ansible_ssh_user='osboxes' 
+
+[lb]
+192.168.109.137 ansible_ssh_user='osboxes'
